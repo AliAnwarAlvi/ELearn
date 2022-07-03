@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>E-Learn | Home</title>
+
+<!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<!--Custom CSS-->
+<style>
+body {
+ margin:0;
+ padding:0;
+}
+
+/* Background image */
+.jumbotron {
+
+padding-top: 10rem;
+padding-bottom: 10rem;
+
+}
+
+.bg-cover {
+background-size: cover;
+color: white;
+position: relative;
+z-index: -2;
+}
+
+
+</style>
+
+</head>
+<header>
+
+<!-- NAVIGATION -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">E-Learn</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Your Courses</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categories
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Machine Learning</a></li>
+            <li><a class="dropdown-item" href="#">Android Programming</a></li>
+            <li><a class="dropdown-item" href="#">Web Development</a></li>
+            <li><a class="dropdown-item" href="#">IOS Programming</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-secondary" type="submit">Search</button>
+      </form>
+
+    </div>
+  </div>
+</nav>
+</header>
+<!-------------------------------------------------------------------------------------------------->
+
+
+<!--JUMBOTRON BACK-->
+<div class="jumbotron jumbotron-fluid bg-cover" style="width:100%;height:550px;background:url('https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2089&q=80');background-size:cover;background-position:center;margin-bottom:0px;">
+
+    <div class="overlay"></div>
+    <div class="container">
+      <h1 ><strong>Step up your skills</strong></h1>
+      <p>Get the tech skills you need with courses from Rs.770!</p>
+    </div>
+  </div>
+
+<!--AFTER IMAGE-->
+
+      <div class="fresh-content text-light py-3" style="background:linear-gradient(-45deg,#ec5252,#6e1a52) ">
+          <div class="container-flex">
+              <div class="row">
+                  <div class="col-lg-4">
+                     <div class="media-body">
+                       <center><h5 class="mt-0"><strong>10,000 online Courses</strong></h5>
+                        <p>Explore a variety of fresh topics</p></center>
+                    </div>
+                 </div>
+
+                  <div class="col-lg-4">
+                      <center><h5 class="mt-0"><strong>Expert Instruction</strong></h5>
+                        <p>Find the right instructor for you</p></center>
+                   </div>
+
+                  <div class="col-lg-4">
+                     <center><h5 class="mt-0"><strong>Lifetime access</strong></h5>
+                      <p>Learn on your schedule</p></center>
+                   </div>
+              </div>
+          </div>
+      </div>
+
+
+<!--CARDS CONTAINER 1 START HERE-->
+
+
+<!--JavaScript For Card Shadow-->
+<script>
+$(document).ready(function() {
+ // executes when HTML-Document is loaded and DOM is ready
+console.log("document is ready");
+
+
+  $( ".card" ).hover(
+  function() {
+    $(this).addClass('shadow-lg').css('cursor', 'pointer');
+  }, function() {
+    $(this).removeClass('shadow-lg');
+  }
+);
+
+// document ready
+});
+</script>
+
+<!--JAVASCRIPT ENDS HERE-->
+<!--CARD SHADOW STYLE-->
+<style>
+.card {
+/* Add shadows to create the "card" effect */
+box-shadow: 0px 0px 0px 0 rgb(60,60,60);
+transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+box-shadow: 0px 18px 26px 0 rgb(60,60,60);
+}
+</style>
+
+
+<style>
+.bg-1 {
+  background: #e0ffff;
+  color: #bdbdb;
+}
+.bg-1 h3 {color: #fff;}
+
+</style>
+
+
+
+<!--CARDS CONTAINER 1-->
+
+<div class="bg-1">
+  <div class="jumbotron jumbotron-fluid">
+<div class="container" style="padding:50px;">
+<div class="card-deck">
+
+  <div class="card">
+    <img class="card-img-top" src="https://content.techgig.com/photo/80100245/8-steps-to-master-python-programming-for-data-science.jpg?88712" style="height:200px;width:100%;" alt="python">
+    <div class="card-body">
+      <h5 class="card-title"><strong>Complete Python Bootcamp</strong></h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+       <a href="#" class="btn btn-primary">Start Course</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="card-img-top" src="http://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/09/Front-End-Developer-Skills.jpg" style="height:200px;width:100%;" alt="webdevelopment">
+    <div class="card-body">
+      <h5 class="card-title"><strong>Build Respionsive Websites: Frontend 101</strong></h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+       <a href="#" class="btn btn-primary">Start Course</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="card-img-top" src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png" style="height:200px;width:100%;" alt="Docker">
+    <div class="card-body">
+      <h5 class="card-title"><strong>Docker Mastery : The Complete Toolset</strong></h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+       <a href="#" class="btn btn-primary">Start Course</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png" style="height:200px;width:100%;" alt="Vue">
+    <div class="card-body">
+      <h5 class="card-title"><strong>Vue JS 2 : The Complete Guide</strong></h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+       <a href="#" class="btn btn-primary">Start Course</a>
+    </div>
+  </div>
+</div>
+<!--CARD 1 LINE ENDS-->
+
+
+<!--CARD 2 LINE STARTS HERE-->
+
+<div class="container mt-5" >
+
+<div class="card-deck">
+
+  <div class="card">
+    <img class="card-img-top" src="https://miro.medium.com/max/1024/1*6l15igU_z2Uj15SzOGx1Iw.png" style="height:200px;width:100%;" alt="datascience">
+    <div class="card-body">
+      <h5 class="card-title"><strong>The Data Science Course : 2019 Complete</strong></h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+       <a href="#" class="btn btn-primary">Start Course</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="card-img-top" src="https://miro.medium.com/max/1024/1*fLP6wCYm5I-sXYV0YbtMkg.png" style="height:200px;width:100%;" alt="ML">
+    <div class="card-body">
+      <h5 class="card-title"><strong>Machine Learning A to Z : Hands on Python</strong></h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+       <a href="#" class="btn btn-primary">Start Course</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="card-img-top" src="https://i2.wp.com/www.mobileworldlive.com/wp-content/uploads/2017/08/Oreo.jpg?fit=702%2C400&ssl=1" style="height:200px;width:100%;" alt="androidprogramming">
+    <div class="card-body">
+      <h5 class="card-title"><strong>The Complete Android Oreo Developer Course</strong></h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+       <a href="#" class="btn btn-primary">Start Course</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img class="card-img-top" src="https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png" style="height:200px;width:100%;" alt="webdesign">
+    <div class="card-body">
+      <h5 class="card-title"><strong>Practical Web Design & Design</strong></h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+       <a href="#" class="btn btn-primary">Start Course</a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<!--CARD JUMBOTRON ENDS HERE-->
+
+<div class="container-flex" style="padding-bottom:10px;">
+  <div class="row">
+    <div class="col-lg-4">
+    <center><h4>ABOUT US</h4>
+      <p>We are here to make online education more fun and accissible to all. The creators of this page are Harsh Shelar and Mridul Pandey. Copyright 1999-2019 by Refsnes Data. All Rights Reserved.</p></center>
+    </div>
+
+    <div class="col-lg-4">
+    <center><h4>IMPORTANT LINKS</h4>
+<ul style="list-style-type:none">
+  <li><a href="#">About Us</a></li>
+
+  <li><a href="#">Contact Us</a></li>
+
+  <li><a href="#">Our Vision</a></li>
+
+  <li><a href="#">Feedback</a></li>
+</ul></center>
+    </div>
+
+    <div class="col-lg-4">
+    <center><h4>IMPORTANT LINKS</h4>
+<ul style="list-style-type:none">
+  <li><a href="#">WWEIndia.com</a></li>
+
+  <li><a href="#">Contact Us</a></li>
+
+  <li><a href="#">GrammarAcademy</a></li>
+
+  <li><a href="#">JEE</a></li>
+</ul></center>
+
+    </div>
+</div>
+<br>
+<br>
+
+<!--FOOTER-->
+
+<footer class="py-3 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white">© 2019 Copyright:
+    <a href="#">E-Learn</a>
+    </p>
+  </div>
+</footer>
+
+
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+ <script>
+   $(function () {
+     $('[data-toggle="popover"]').popover()
+   })
+ </script>
+</body>
+</html>
+<body>
+<!-- Bootstrap core JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+<script scr="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
